@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="accent">#FF6200EE</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_dark">#424242</color>
+    <color name="hint_text">#999999</color>
+    <color name="error">#FF5252</color>
+    <color name="icon_red_bg">#A63029</color>
+    <color name="icon_gold">#DCC08C</color>
+    <color name="icon_teal">#369C9E</color>
+    <color name="icon_crimson">#D1473E</color>
+    <color name="icon_dark_teal">#1A383F</color>
+    <color name="icon_light_teal">#49A9AB</color>
+    <color name="icon_cream">#FDF5E6</color>
+    <color name="icon_light_gray">#E0E0E0</color>
+</resources>
