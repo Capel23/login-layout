@@ -9,6 +9,8 @@
     <color name="gray_dark">#424242</color>
     <color name="hint_text">#999999</color>
     <color name="error">#FF5252</color>
+
+    <!-- Paleta MANGUP -->
     <color name="icon_red_bg">#A63029</color>
     <color name="icon_gold">#DCC08C</color>
     <color name="icon_teal">#369C9E</color>
@@ -17,4 +19,12 @@
     <color name="icon_light_teal">#49A9AB</color>
     <color name="icon_cream">#FDF5E6</color>
     <color name="icon_light_gray">#E0E0E0</color>
+
+    <!-- Colores claros MANGUP para fondos -->
+    <color name="mangup_bg_light">#E8F6F6</color>
+    <color name="mangup_teal_soft">#5FB8BA</color>
+    <color name="mangup_gold_light">#F0E4C8</color>
+    <color name="mangup_cream_soft">#FFFBF5</color>
+    <color name="mangup_red_soft">#E8857F</color>
+    <color name="mangup_card_bg">#F5FAFA</color>
 </resources>

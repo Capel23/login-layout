@@ -1,17 +1,19 @@
-# MANGUP Login Layout 🐱
+# ProyectoApp 🐱
 
-Un hermoso layout de login para Android con diseño Material Design y colores personalizados del icono MANGUP.
+Un hermoso layout de login y ecommerce para Android con diseño Material Design y colores personalizados del icono MANGUP.
 
 ## 🎨 Características
 
 - **Diseño Material Design** - Componentes modernos y responsivos
+- **Login Activity** - Pantalla de autenticación con validación
+- **Home/Ecommerce Activity** - Pantalla de productos con RecyclerView
+- **Navegabilidad con Intent** - Navegación fluida entre actividades
 - **Colores Personalizados** - Paleta de colores basada en el icono MANGUP
 - **Logo Integrado** - Icono PNG del gato MANGUP 
 - **Campos de Entrada** - Email/Usuario y Contraseña con validación visual
 - **Botón de Acción** - "Iniciar Sesión" destacado con color rojo
-- **Responsive** - ScrollView para dispositivos de diferentes tamaños
-- **Link de Recuperación** - "¿Olvidaste tu contraseña?"
-- **Opción de Registro** - "¿No tienes cuenta? Regístrate"
+- **Responsive** - Adaptable a dispositivos de diferentes tamaños
+- **RecyclerView de Productos** - Grilla de productos en la pantalla home
 
 ## 🎯 Colores Implementados
 
@@ -31,10 +33,15 @@ app/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── MainActivity.kt
+│   │   │   ├── MainActivity.kt (Login Activity)
+│   │   │   ├── HomeActivity.kt (Ecommerce Activity)
+│   │   │   ├── Product.kt (Data class)
+│   │   │   └── ProductAdapter.kt (RecyclerView Adapter)
 │   │   └── res/
 │   │       ├── layout/
-│   │       │   └── activity_main.xml
+│   │       │   ├── activity_main.xml (Login Layout)
+│   │       │   ├── activity_home.xml (Home Layout)
+│   │       │   └── item_product.xml (Product Item Layout)
 │   │       ├── drawable/
 │   │       │   └── icono_mangup.png
 │   │       └── values/
@@ -92,7 +99,7 @@ Este proyecto es de código abierto y está disponible bajo la Licencia MIT.
 
 ## 👤 Autor
 
-Desarrollo realizado para el proyecto MANGUP Login Layout
+Desarrollo realizado por Luis Capel para el proyecto MANGUP Login Layout
 
 ---
 
